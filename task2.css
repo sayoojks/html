@@ -1,0 +1,33 @@
+#signup{
+    padding-left: 10px;
+}
+#head{
+    background-color: rgb(218, 176, 10);
+    width:500px;
+    height: 30px;
+}
+#details{
+    background-color: rgb(2, 2, 74);
+    width: 500px;
+    height: 100px;
+    color: yellow;
+    padding-left:50px;
+}
+th{
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#bottom{
+    background-color:rgb(218, 176, 10) ;
+    width: 500px;
+    height: 30px;
+    padding-left: 370px;
+}
+#submit{
+    background-color: green;
+}
+#cancel{
+    background-color: red;
+}

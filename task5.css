@@ -1,0 +1,23 @@
+th{
+    border: 6px solid white;
+    background-color: rgb(245, 245, 189);
+    width: 200px;
+    height: 30px;
+    font-size: xx-large;
+    color: red;
+}
+td{
+    border: 6px solid white;
+    width: 250px;
+    background-color: #05a5ea;
+}
+#click{
+    /* padding-left: 50px; */
+    text-align: center;
+    height: 30px;
+}
+/* #box{
+  width: 250px;
+  height: 350px;
+  background-color: blanchedalmond;
+} */

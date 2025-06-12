@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100vh;
+            display: grid;
+            background-color: aquamarine;
+            border: 2px solid;
+            grid-template-columns: 2fr 2fr 2fr;
+            grid-template-rows: 2fr 2fr 2fr;
+            grid-template-areas: 
+            "one one one"
+            "two three four"
+            "two five five";
+        }
+        .d1{
+            grid-area: one;
+            border: 1px solid red;
+            background-color: green;
+        }
+        .d2{
+            grid-area: two;
+            border: 1px solid red;
+            background-color: green;
+        }
+        .d3{
+            grid-area: three;
+            border: 1px solid red;
+            background-color: green;
+        }
+        .d4{
+            grid-area: four;
+            border: 1px solid red;
+            background-color: green;
+        }
+        .d5{
+            grid-area: five;
+            border: 1px solid red;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="d1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, exercitationem corrupti suscipit inventore in itaque repudiandae veritatis impedit sed ipsam perspiciatis nemo unde fuga ad neque reprehenderit? Omnis, asperiores atque.</div>
+        <div class="d2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, minus! Minima animi similique repellat quaerat explicabo quasi suscipit ullam libero necessitatibus laboriosam cupiditate dicta dolore neque, nesciunt in debitis voluptatibus?</div>
+        <div class="d3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis, repellendus laudantium consectetur tempora sapiente tenetur non repudiandae, recusandae facere corrupti deleniti saepe, doloribus modi. Fuga dicta minus quos aspernatur.</div>
+        <div class="d4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum alias asperiores aliquam necessitatibus atque inventore quidem, ad velit laboriosam iure fuga dignissimos? Nostrum praesentium repellendus saepe vel sit soluta?</div>
+        <divn class="d5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto a odio temporibus amet repellat in illo error rem rerum ipsam libero sit consectetur non suscipit accusamus ullam, porro aperiam delectus!</div>
+
+    </div>
+</body>
+</html>
